@@ -1,0 +1,821 @@
+#name "./sort_list.cl.cool"
+#1 '('
+#1 ERROR "*"
+#2 TYPEID This
+#2 OBJECTID file
+#2 OBJECTID presents
+#2 OBJECTID a
+#2 OBJECTID fairly
+#2 OBJECTID large
+#2 OBJECTID example
+#2 OF
+#2 TYPEID Cool
+#2 OBJECTID programming
+#2 '.'
+#2 TYPEID The
+#3 CLASS
+#3 TYPEID List
+#3 OBJECTID defines
+#3 OBJECTID the
+#3 OBJECTID names
+#3 OF
+#3 OBJECTID standard
+#3 OBJECTID list
+#3 OBJECTID operations
+#3 OBJECTID ala
+#3 TYPEID Scheme:
+#4 OBJECTID car
+#4 ERROR ","
+#4 OBJECTID cdr
+#4 ERROR ","
+#4 OBJECTID cons
+#4 ERROR ","
+#4 OBJECTID isNil
+#4 ERROR ","
+#4 OBJECTID rev
+#4 ERROR ","
+#4 OBJECTID sort
+#4 ERROR ","
+#4 OBJECTID rcons
+#4 '('
+#4 OBJECTID add
+#4 OBJECTID an
+#4 OBJECTID element
+#4 OBJECTID to
+#4 OBJECTID the
+#4 OBJECTID end
+#4 OF
+#5 OBJECTID the
+#5 OBJECTID list
+#5 ')'
+#5 ERROR ","
+#5 OBJECTID and
+#5 OBJECTID print_list
+#5 '.'
+#5 TYPEID In
+#5 OBJECTID the
+#5 TYPEID List
+#5 CLASS
+#5 OBJECTID most
+#5 OF
+#5 OBJECTID these
+#5 OBJECTID functions
+#6 OBJECTID are
+#6 OBJECTID just
+#6 OBJECTID stubs
+#6 OBJECTID that
+#6 OBJECTID abort
+#6 IF
+#6 OBJECTID ever
+#6 OBJECTID called
+#6 '.'
+#6 TYPEID The
+#6 OBJECTID classes
+#6 TYPEID Nil
+#6 OBJECTID and
+#6 TYPEID Cons
+#7 OBJECTID inherit
+#7 OBJECTID from
+#7 TYPEID List
+#7 OBJECTID and
+#7 OBJECTID define
+#7 OBJECTID the
+#7 OBJECTID same
+#7 OBJECTID operations
+#7 ERROR ","
+#7 OBJECTID but
+#7 OBJECTID now
+#7 OBJECTID as
+#8 OBJECTID appropriate
+#8 OBJECTID to
+#8 OBJECTID the
+#8 OBJECTID empty
+#8 OBJECTID list
+#8 '('
+#8 OBJECTID for
+#8 OBJECTID the
+#8 TYPEID Nil
+#8 CLASS
+#8 ')'
+#8 OBJECTID and
+#8 OBJECTID for
+#8 OBJECTID cons
+#8 OBJECTID cells
+#8 '('
+#8 OBJECTID for
+#9 OBJECTID the
+#9 TYPEID Cons
+#9 CLASS
+#9 ')'
+#9 '.'
+#11 TYPEID The
+#11 TYPEID Main
+#11 CLASS
+#11 OBJECTID puts
+#11 OBJECTID all
+#11 OF
+#11 OBJECTID this
+#11 OBJECTID code
+#11 OBJECTID through
+#11 OBJECTID the
+#11 OBJECTID following
+#11 OBJECTID silly
+#12 OBJECTID test
+#12 OBJECTID exercise:
+#14 INT_CONST 1
+#14 '.'
+#14 OBJECTID prompt
+#14 OBJECTID for
+#14 OBJECTID a
+#14 OBJECTID number
+#14 TYPEID N
+#15 INT_CONST 2
+#15 '.'
+#15 OBJECTID generate
+#15 OBJECTID a
+#15 OBJECTID list
+#15 OF
+#15 OBJECTID numbers
+#15 INT_CONST 0
+#15 '.'
+#15 '.'
+#15 TYPEID N
+#15 '-'
+#15 INT_CONST 1
+#16 INT_CONST 3
+#16 '.'
+#16 OBJECTID reverse
+#16 OBJECTID the
+#16 OBJECTID list
+#17 INT_CONST 4
+#17 '.'
+#17 OBJECTID sort
+#17 OBJECTID the
+#17 OBJECTID list
+#18 INT_CONST 5
+#18 '.'
+#18 OBJECTID print
+#18 OBJECTID the
+#18 OBJECTID sorted
+#18 OBJECTID list
+#20 TYPEID Because
+#20 OBJECTID the
+#20 OBJECTID sort
+#20 OBJECTID used
+#20 OBJECTID is
+#20 OBJECTID a
+#20 OBJECTID quadratic
+#20 OBJECTID space
+#20 OBJECTID insertion
+#20 OBJECTID sort
+#20 ERROR ","
+#20 OBJECTID sorting
+#21 OBJECTID moderately
+#21 OBJECTID large
+#21 OBJECTID lists
+#21 OBJECTID will
+#21 OBJECTID cause
+#21 OBJECTID spim
+#21 OBJECTID to
+#21 OBJECTID run
+#21 OBJECTID out
+#21 OF
+#21 OBJECTID memory
+#21 '.'
+#22 ERROR "*"
+#22 ')'
+#24 TYPEID Class
+#24 TYPEID List
+#24 INHERITS
+#24 TYPEID IO
+#24 '{'
+#25 '('
+#25 ERROR "*"
+#25 TYPEID Since
+#25 OBJECTID abort
+#25 '('
+#25 ')'
+#25 OBJECTID returns
+#25 TYPEID Object
+#25 ERROR ","
+#25 OBJECTID we
+#25 OBJECTID need
+#25 OBJECTID something
+#25 OF
+#26 OBJECTID type
+#26 TYPEID Bool
+#26 OBJECTID at
+#26 OBJECTID the
+#26 OBJECTID end
+#26 OF
+#26 OBJECTID the
+#26 OBJECTID block
+#26 OBJECTID to
+#26 OBJECTID satisfy
+#26 OBJECTID the
+#26 OBJECTID typechecker
+#26 '.'
+#27 TYPEID This
+#27 OBJECTID code
+#27 OBJECTID is
+#27 OBJECTID unreachable
+#27 ERROR ","
+#27 OBJECTID since
+#27 OBJECTID abort
+#27 '('
+#27 ')'
+#27 OBJECTID halts
+#27 OBJECTID the
+#27 OBJECTID program
+#27 '.'
+#27 ERROR "*"
+#27 ')'
+#28 OBJECTID isNil
+#28 '('
+#28 ')'
+#28 ':'
+#28 TYPEID Bool
+#28 '{'
+#28 '{'
+#28 OBJECTID abort
+#28 '('
+#28 ')'
+#28 ';'
+#28 BOOL_CONST true
+#28 ';'
+#28 '}'
+#28 '}'
+#28 ';'
+#30 OBJECTID cons
+#30 '('
+#30 OBJECTID hd
+#30 ':'
+#30 TYPEID Int
+#30 ')'
+#30 ':'
+#30 TYPEID Cons
+#30 '{'
+#31 '('
+#31 LET
+#31 OBJECTID new_cell
+#31 ':'
+#31 TYPEID Cons
+#31 ASSIGN
+#31 NEW
+#31 TYPEID Cons
+#31 IN
+#32 OBJECTID new_cell
+#32 '.'
+#32 OBJECTID init
+#32 '('
+#32 OBJECTID hd
+#32 ERROR ","
+#32 OBJECTID self
+#32 ')'
+#33 ')'
+#34 '}'
+#34 ';'
+#36 '('
+#36 ERROR "*"
+#37 TYPEID Since
+#37 OBJECTID abort
+#37 STR_CONST "returns"
+#37 OBJECTID type
+#37 TYPEID Object
+#37 ERROR ","
+#37 OBJECTID we
+#37 OBJECTID have
+#37 OBJECTID to
+#37 OBJECTID add
+#38 OBJECTID an
+#38 OBJECTID expression
+#38 OF
+#38 OBJECTID type
+#38 TYPEID Int
+#38 OBJECTID here
+#38 OBJECTID to
+#38 OBJECTID satisfy
+#38 OBJECTID the
+#38 OBJECTID typechecker
+#38 '.'
+#39 TYPEID This
+#39 OBJECTID code
+#39 OBJECTID is
+#39 ERROR ","
+#39 OF
+#39 OBJECTID course
+#39 ERROR ","
+#39 OBJECTID unreachable
+#39 '.'
+#40 ERROR "*"
+#40 ')'
+#41 OBJECTID car
+#41 '('
+#41 ')'
+#41 ':'
+#41 TYPEID Int
+#41 '{'
+#41 '{'
+#41 OBJECTID abort
+#41 '('
+#41 ')'
+#41 ';'
+#41 NEW
+#41 TYPEID Int
+#41 ';'
+#41 '}'
+#41 '}'
+#41 ';'
+#43 OBJECTID cdr
+#43 '('
+#43 ')'
+#43 ':'
+#43 TYPEID List
+#43 '{'
+#43 '{'
+#43 OBJECTID abort
+#43 '('
+#43 ')'
+#43 ';'
+#43 NEW
+#43 TYPEID List
+#43 ';'
+#43 '}'
+#43 '}'
+#43 ';'
+#45 OBJECTID rev
+#45 '('
+#45 ')'
+#45 ':'
+#45 TYPEID List
+#45 '{'
+#45 OBJECTID cdr
+#45 '('
+#45 ')'
+#45 '}'
+#45 ';'
+#47 OBJECTID sort
+#47 '('
+#47 ')'
+#47 ':'
+#47 TYPEID List
+#47 '{'
+#47 OBJECTID cdr
+#47 '('
+#47 ')'
+#47 '}'
+#47 ';'
+#49 OBJECTID insert
+#49 '('
+#49 OBJECTID i
+#49 ':'
+#49 TYPEID Int
+#49 ')'
+#49 ':'
+#49 TYPEID List
+#49 '{'
+#49 OBJECTID cdr
+#49 '('
+#49 ')'
+#49 '}'
+#49 ';'
+#51 OBJECTID rcons
+#51 '('
+#51 OBJECTID i
+#51 ':'
+#51 TYPEID Int
+#51 ')'
+#51 ':'
+#51 TYPEID List
+#51 '{'
+#51 OBJECTID cdr
+#51 '('
+#51 ')'
+#51 '}'
+#51 ';'
+#53 OBJECTID print_list
+#53 '('
+#53 ')'
+#53 ':'
+#53 TYPEID Object
+#53 '{'
+#53 OBJECTID abort
+#53 '('
+#53 ')'
+#53 '}'
+#53 ';'
+#54 '}'
+#54 ';'
+#56 TYPEID Class
+#56 TYPEID Cons
+#56 INHERITS
+#56 TYPEID List
+#56 '{'
+#57 OBJECTID xcar
+#57 ':'
+#57 TYPEID Int
+#57 ';'
+matching comment -- We keep the car in cdr in attributes.
+#58 OBJECTID xcdr
+#58 ':'
+#58 TYPEID List
+#58 ';'
+matching comment -- Because methods and features must have different names,
+matching comment -- we use xcar and xcdr for the attributes and reserve
+matching comment -- cons and car for the features.
+#62 OBJECTID isNil
+#62 '('
+#62 ')'
+#62 ':'
+#62 TYPEID Bool
+#62 '{'
+#62 BOOL_CONST false
+#62 '}'
+#62 ';'
+#64 OBJECTID init
+#64 '('
+#64 OBJECTID hd
+#64 ':'
+#64 TYPEID Int
+#64 ERROR ","
+#64 OBJECTID tl
+#64 ':'
+#64 TYPEID List
+#64 ')'
+#64 ':'
+#64 TYPEID Cons
+#64 '{'
+#65 '{'
+#66 OBJECTID xcar
+#66 ASSIGN
+#66 OBJECTID hd
+#66 ';'
+#67 OBJECTID xcdr
+#67 ASSIGN
+#67 OBJECTID tl
+#67 ';'
+#68 OBJECTID self
+#68 ';'
+#69 '}'
+#70 '}'
+#70 ';'
+#72 OBJECTID car
+#72 '('
+#72 ')'
+#72 ':'
+#72 TYPEID Int
+#72 '{'
+#72 OBJECTID xcar
+#72 '}'
+#72 ';'
+#74 OBJECTID cdr
+#74 '('
+#74 ')'
+#74 ':'
+#74 TYPEID List
+#74 '{'
+#74 OBJECTID xcdr
+#74 '}'
+#74 ';'
+#76 OBJECTID rev
+#76 '('
+#76 ')'
+#76 ':'
+#76 TYPEID List
+#76 '{'
+#76 '('
+#76 OBJECTID xcdr
+#76 '.'
+#76 OBJECTID rev
+#76 '('
+#76 ')'
+#76 ')'
+#76 '.'
+#76 OBJECTID rcons
+#76 '('
+#76 OBJECTID xcar
+#76 ')'
+#76 '}'
+#76 ';'
+#78 OBJECTID sort
+#78 '('
+#78 ')'
+#78 ':'
+#78 TYPEID List
+#78 '{'
+#78 '('
+#78 OBJECTID xcdr
+#78 '.'
+#78 OBJECTID sort
+#78 '('
+#78 ')'
+#78 ')'
+#78 '.'
+#78 OBJECTID insert
+#78 '('
+#78 OBJECTID xcar
+#78 ')'
+#78 '}'
+#78 ';'
+#80 OBJECTID insert
+#80 '('
+#80 OBJECTID i
+#80 ':'
+#80 TYPEID Int
+#80 ')'
+#80 ':'
+#80 TYPEID List
+#80 '{'
+#81 IF
+#81 OBJECTID i
+#81 ERROR "<"
+#81 OBJECTID xcar
+#81 THEN
+#82 '('
+#82 NEW
+#82 TYPEID Cons
+#82 ')'
+#82 '.'
+#82 OBJECTID init
+#82 '('
+#82 OBJECTID i
+#82 ERROR ","
+#82 OBJECTID self
+#82 ')'
+#83 ELSE
+#84 '('
+#84 NEW
+#84 TYPEID Cons
+#84 ')'
+#84 '.'
+#84 OBJECTID init
+#84 '('
+#84 OBJECTID xcar
+#84 ERROR ","
+#84 OBJECTID xcdr
+#84 '.'
+#84 OBJECTID insert
+#84 '('
+#84 OBJECTID i
+#84 ')'
+#84 ')'
+#85 FI
+#86 '}'
+#86 ';'
+#89 OBJECTID rcons
+#89 '('
+#89 OBJECTID i
+#89 ':'
+#89 TYPEID Int
+#89 ')'
+#89 ':'
+#89 TYPEID List
+#89 '{'
+#89 '('
+#89 NEW
+#89 TYPEID Cons
+#89 ')'
+#89 '.'
+#89 OBJECTID init
+#89 '('
+#89 OBJECTID xcar
+#89 ERROR ","
+#89 OBJECTID xcdr
+#89 '.'
+#89 OBJECTID rcons
+#89 '('
+#89 OBJECTID i
+#89 ')'
+#89 ')'
+#89 '}'
+#89 ';'
+#91 OBJECTID print_list
+#91 '('
+#91 ')'
+#91 ':'
+#91 TYPEID Object
+#91 '{'
+#92 '{'
+#93 OBJECTID out_int
+#93 '('
+#93 OBJECTID xcar
+#93 ')'
+#93 ';'
+#94 OBJECTID out_string
+#94 '('
+#94 STR_CONST "\\n"
+#94 ')'
+#94 ';'
+#95 OBJECTID xcdr
+#95 '.'
+#95 OBJECTID print_list
+#95 '('
+#95 ')'
+#95 ';'
+#96 '}'
+#97 '}'
+#97 ';'
+#98 '}'
+#98 ';'
+#100 TYPEID Class
+#100 TYPEID Nil
+#100 INHERITS
+#100 TYPEID List
+#100 '{'
+#101 OBJECTID isNil
+#101 '('
+#101 ')'
+#101 ':'
+#101 TYPEID Bool
+#101 '{'
+#101 BOOL_CONST true
+#101 '}'
+#101 ';'
+#103 OBJECTID rev
+#103 '('
+#103 ')'
+#103 ':'
+#103 TYPEID List
+#103 '{'
+#103 OBJECTID self
+#103 '}'
+#103 ';'
+#105 OBJECTID sort
+#105 '('
+#105 ')'
+#105 ':'
+#105 TYPEID List
+#105 '{'
+#105 OBJECTID self
+#105 '}'
+#105 ';'
+#107 OBJECTID insert
+#107 '('
+#107 OBJECTID i
+#107 ':'
+#107 TYPEID Int
+#107 ')'
+#107 ':'
+#107 TYPEID List
+#107 '{'
+#107 OBJECTID rcons
+#107 '('
+#107 OBJECTID i
+#107 ')'
+#107 '}'
+#107 ';'
+#109 OBJECTID rcons
+#109 '('
+#109 OBJECTID i
+#109 ':'
+#109 TYPEID Int
+#109 ')'
+#109 ':'
+#109 TYPEID List
+#109 '{'
+#109 '('
+#109 NEW
+#109 TYPEID Cons
+#109 ')'
+#109 '.'
+#109 OBJECTID init
+#109 '('
+#109 OBJECTID i
+#109 ERROR ","
+#109 OBJECTID self
+#109 ')'
+#109 '}'
+#109 ';'
+#111 OBJECTID print_list
+#111 '('
+#111 ')'
+#111 ':'
+#111 TYPEID Object
+#111 '{'
+#111 BOOL_CONST true
+#111 '}'
+#111 ';'
+#113 '}'
+#113 ';'
+#116 TYPEID Class
+#116 TYPEID Main
+#116 INHERITS
+#116 TYPEID IO
+#116 '{'
+#118 OBJECTID l
+#118 ':'
+#118 TYPEID List
+#118 ';'
+#120 '('
+#120 ERROR "*"
+#120 OBJECTID iota
+#120 OBJECTID maps
+#120 OBJECTID its
+#120 OBJECTID integer
+#120 OBJECTID argument
+#120 OBJECTID n
+#120 OBJECTID into
+#120 OBJECTID the
+#120 OBJECTID list
+#120 INT_CONST 0
+#120 '.'
+#120 '.'
+#120 OBJECTID n
+#120 '-'
+#120 INT_CONST 1
+#120 ERROR "*"
+#120 ')'
+#121 OBJECTID iota
+#121 '('
+#121 OBJECTID i
+#121 ':'
+#121 TYPEID Int
+#121 ')'
+#121 ':'
+#121 TYPEID List
+#121 '{'
+#122 '{'
+#123 OBJECTID l
+#123 ASSIGN
+#123 NEW
+#123 TYPEID Nil
+#123 ';'
+#124 '('
+#124 LET
+#124 OBJECTID j
+#124 ':'
+#124 TYPEID Int
+#124 ASSIGN
+#124 INT_CONST 0
+#124 IN
+#125 WHILE
+#125 OBJECTID j
+#125 ERROR "<"
+#125 OBJECTID i
+#126 LOOP
+#127 '{'
+#128 OBJECTID l
+#128 ASSIGN
+#128 '('
+#128 NEW
+#128 TYPEID Cons
+#128 ')'
+#128 '.'
+#128 OBJECTID init
+#128 '('
+#128 OBJECTID j
+#128 ERROR ","
+#128 OBJECTID l
+#128 ')'
+#128 ';'
+#129 OBJECTID j
+#129 ASSIGN
+#129 OBJECTID j
+#129 '+'
+#129 INT_CONST 1
+#129 ';'
+#130 '}'
+#131 POOL
+#132 ')'
+#132 ';'
+#133 OBJECTID l
+#133 ';'
+#134 '}'
+#135 '}'
+#135 ';'
+#137 OBJECTID main
+#137 '('
+#137 ')'
+#137 ':'
+#137 TYPEID Object
+#137 '{'
+#138 '{'
+#139 OBJECTID out_string
+#139 '('
+#139 STR_CONST "How many numbers to sort?"
+#139 ')'
+#139 ';'
+#140 OBJECTID iota
+#140 '('
+#140 OBJECTID in_int
+#140 '('
+#140 ')'
+#140 ')'
+#140 '.'
+#140 OBJECTID rev
+#140 '('
+#140 ')'
+#140 '.'
+#140 OBJECTID sort
+#140 '('
+#140 ')'
+#140 '.'
+#140 OBJECTID print_list
+#140 '('
+#140 ')'
+#140 ';'
+#141 '}'
+#142 '}'
+#142 ';'
+#143 '}'
+#143 ';'

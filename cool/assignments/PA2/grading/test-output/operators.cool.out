@@ -1,0 +1,61 @@
+#name "./operators.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID some
+#1 OBJECTID operators
+#1 ERROR "*"
+#1 ')'
+#2 ';'
+#2 '{'
+#2 '}'
+#2 '('
+#2 ERROR ","
+#2 ')'
+#2 ':'
+#2 ERROR "@"
+#2 '.'
+#2 '+'
+#2 '-'
+#2 ERROR "*"
+#2 ERROR "/"
+#2 ERROR "~"
+#2 ERROR "<"
+#2 ERROR "="
+#2 ASSIGN
+#2 DARROW
+#2 LE
+#4 '('
+#4 ERROR "*"
+#4 OBJECTID should
+#4 OBJECTID be
+#4 ERROR "<"
+#4 OBJECTID and
+#4 LE
+#4 ERROR "*"
+#4 ')'
+#5 ERROR "<"
+#5 LE
+#7 '('
+#7 ERROR "*"
+#7 OBJECTID should
+#7 OBJECTID be
+#7 LE
+#7 OBJECTID and
+#7 ERROR "="
+#7 ERROR "*"
+#7 ')'
+#8 LE
+#8 ERROR "="
+#10 '('
+#10 ERROR "*"
+#10 OBJECTID should
+#10 OBJECTID be
+#10 LE
+#10 OBJECTID and
+#10 DARROW
+#10 ERROR "*"
+#10 ')'
+#11 LE
+#11 DARROW
+#13 ERROR "<"
+#13 ASSIGN

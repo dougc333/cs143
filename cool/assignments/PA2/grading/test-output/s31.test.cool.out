@@ -1,0 +1,10 @@
+#name "./s31.test.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID subtle:
+#1 OBJECTID this
+#1 OBJECTID is
+#1 OBJECTID illegal
+#1 ERROR "*"
+#1 ')'
+#2 ERROR "_"

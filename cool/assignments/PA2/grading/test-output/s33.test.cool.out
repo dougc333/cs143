@@ -1,0 +1,19 @@
+#name "./s33.test.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID test
+#1 OBJECTID an
+#1 OBJECTID unterminated
+#1 OBJECTID comment
+#1 ERROR "*"
+#1 ')'
+#3 OBJECTID before_the_comment
+#5 '('
+#5 ERROR "*"
+#5 OBJECTID this
+#6 ERROR "*"
+#6 OBJECTID won
+#6 ERROR "'"
+#6 OBJECTID t
+#7 ERROR "*"
+#7 OBJECTID end

@@ -1,0 +1,33 @@
+#name "./s26.test.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID this
+#1 OBJECTID works
+#1 ERROR ","
+#1 OBJECTID and
+#1 OBJECTID the
+#1 OBJECTID lang
+#1 OBJECTID spec
+#1 OBJECTID doesn
+#1 ERROR "'"
+#1 OBJECTID t
+#1 OBJECTID say
+#1 OBJECTID it
+#1 OBJECTID shouldn
+#1 ERROR "'"
+#1 OBJECTID t
+#1 ';'
+#2 ERROR "*"
+#2 OBJECTID this
+#2 OBJECTID is
+#2 OBJECTID numeric
+#2 OBJECTID literal
+#2 STR_CONST "3"
+#2 OBJECTID and
+#2 OBJECTID object
+#2 OBJECTID id
+#2 STR_CONST "a"
+#2 ERROR "*"
+#2 ')'
+#3 INT_CONST 3
+#3 OBJECTID a

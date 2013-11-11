@@ -1,0 +1,466 @@
+#name "./io.cool"
+#1 '('
+#1 ERROR "*"
+#2 ERROR "*"
+#2 TYPEID The
+#2 TYPEID IO
+#2 CLASS
+#2 OBJECTID is
+#2 OBJECTID predefined
+#2 OBJECTID and
+#2 OBJECTID has
+#2 INT_CONST 4
+#2 OBJECTID methods:
+#3 ERROR "*"
+#4 ERROR "*"
+#4 OBJECTID out_string
+#4 '('
+#4 OBJECTID s
+#4 ':'
+#4 TYPEID String
+#4 ')'
+#4 ':'
+#4 TYPEID SELF_TYPE
+#5 ERROR "*"
+#5 OBJECTID out_int
+#5 '('
+#5 OBJECTID i
+#5 ':'
+#5 TYPEID Int
+#5 ')'
+#5 ':'
+#5 TYPEID SELF_TYPE
+#6 ERROR "*"
+#6 OBJECTID in_string
+#6 '('
+#6 ')'
+#6 ':'
+#6 TYPEID String
+#7 ERROR "*"
+#7 OBJECTID in_int
+#7 '('
+#7 ')'
+#7 ':'
+#7 TYPEID Int
+#8 ERROR "*"
+#9 ERROR "*"
+#9 TYPEID The
+#9 OBJECTID out
+#9 OBJECTID operations
+#9 OBJECTID print
+#9 OBJECTID their
+#9 OBJECTID argument
+#9 OBJECTID to
+#9 OBJECTID the
+#9 OBJECTID terminal
+#9 '.'
+#9 TYPEID The
+#10 ERROR "*"
+#10 OBJECTID in_string
+#10 OBJECTID method
+#10 OBJECTID reads
+#10 OBJECTID an
+#10 OBJECTID entire
+#10 OBJECTID line
+#10 OBJECTID from
+#10 OBJECTID the
+#10 OBJECTID terminal
+#10 OBJECTID and
+#10 OBJECTID returns
+#10 OBJECTID a
+#11 ERROR "*"
+#11 OBJECTID string
+#11 OBJECTID not
+#11 OBJECTID containing
+#11 OBJECTID the
+#11 NEW
+#11 OBJECTID line
+#11 '.'
+#11 TYPEID The
+#11 OBJECTID in_int
+#11 OBJECTID method
+#11 OBJECTID also
+#11 OBJECTID reads
+#12 ERROR "*"
+#12 OBJECTID an
+#12 OBJECTID entire
+#12 OBJECTID line
+#12 OBJECTID from
+#12 OBJECTID the
+#12 OBJECTID terminal
+#12 OBJECTID and
+#12 OBJECTID returns
+#12 OBJECTID the
+#12 OBJECTID integer
+#13 ERROR "*"
+#13 OBJECTID corresponding
+#13 OBJECTID to
+#13 OBJECTID the
+#13 OBJECTID first
+#13 OBJECTID non
+#13 OBJECTID blank
+#13 OBJECTID word
+#13 OBJECTID on
+#13 OBJECTID the
+#13 OBJECTID line
+#13 '.'
+#13 TYPEID If
+#13 OBJECTID that
+#14 ERROR "*"
+#14 OBJECTID word
+#14 OBJECTID is
+#14 OBJECTID not
+#14 OBJECTID an
+#14 OBJECTID integer
+#14 ERROR ","
+#14 OBJECTID it
+#14 OBJECTID returns
+#14 INT_CONST 0
+#14 '.'
+#15 ERROR "*"
+#16 ERROR "*"
+#17 ERROR "*"
+#17 TYPEID Because
+#17 OBJECTID our
+#17 OBJECTID language
+#17 OBJECTID is
+#17 OBJECTID object
+#17 OBJECTID oriented
+#17 ERROR ","
+#17 OBJECTID we
+#17 OBJECTID need
+#17 OBJECTID an
+#17 OBJECTID object
+#17 OF
+#17 OBJECTID type
+#18 ERROR "*"
+#18 TYPEID IO
+#18 IN
+#18 OBJECTID order
+#18 OBJECTID to
+#18 OBJECTID call
+#18 OBJECTID any
+#18 OF
+#18 OBJECTID these
+#18 OBJECTID methods
+#18 '.'
+#19 ERROR "*"
+#20 ERROR "*"
+#20 TYPEID There
+#20 OBJECTID are
+#20 OBJECTID basically
+#20 OBJECTID two
+#20 OBJECTID ways
+#20 OF
+#20 OBJECTID getting
+#20 OBJECTID access
+#20 OBJECTID to
+#20 TYPEID IO
+#20 IN
+#20 OBJECTID a
+#20 CLASS
+#20 TYPEID C
+#20 '.'
+#21 ERROR "*"
+#22 ERROR "*"
+#22 INT_CONST 1
+#22 ')'
+#22 TYPEID Define
+#22 TYPEID C
+#22 OBJECTID to
+#22 TYPEID Inherit
+#22 OBJECTID from
+#22 TYPEID IO
+#22 '.'
+#22 TYPEID This
+#22 OBJECTID way
+#22 OBJECTID the
+#22 TYPEID IO
+#22 OBJECTID methods
+#22 OBJECTID become
+#23 ERROR "*"
+#23 OBJECTID methods
+#23 OF
+#23 TYPEID C
+#23 ERROR ","
+#23 OBJECTID and
+#23 OBJECTID they
+#23 OBJECTID can
+#23 OBJECTID be
+#23 OBJECTID called
+#23 OBJECTID using
+#23 OBJECTID the
+#23 OBJECTID abbreviated
+#24 ERROR "*"
+#24 OBJECTID dispatch
+#24 ERROR ","
+#24 OBJECTID i
+#24 '.'
+#24 OBJECTID e
+#24 '.'
+#25 ERROR "*"
+#26 ERROR "*"
+#26 CLASS
+#26 TYPEID C
+#26 INHERITS
+#26 TYPEID IO
+#26 OBJECTID is
+#27 ERROR "*"
+#27 '.'
+#27 '.'
+#27 '.'
+#28 ERROR "*"
+#28 OBJECTID out_string
+#28 '('
+#28 STR_CONST "Hello world\\n"
+#28 ')'
+#29 ERROR "*"
+#29 '.'
+#29 '.'
+#29 '.'
+#30 ERROR "*"
+#30 OBJECTID end
+#30 ';'
+#31 ERROR "*"
+#32 ERROR "*"
+#32 INT_CONST 2
+#32 ')'
+#32 TYPEID If
+#32 OBJECTID your
+#32 CLASS
+#32 TYPEID C
+#32 OBJECTID does
+#32 OBJECTID not
+#32 OBJECTID directly
+#32 OBJECTID or
+#32 OBJECTID indirectly
+#32 OBJECTID inherit
+#32 OBJECTID from
+#33 ERROR "*"
+#33 TYPEID IO
+#33 ERROR ","
+#33 OBJECTID the
+#33 OBJECTID best
+#33 OBJECTID way
+#33 OBJECTID to
+#33 OBJECTID access
+#33 TYPEID IO
+#33 OBJECTID is
+#33 OBJECTID through
+#33 OBJECTID an
+#33 OBJECTID initialized
+#34 ERROR "*"
+#34 OBJECTID attribute
+#34 OF
+#34 OBJECTID type
+#34 TYPEID IO
+#34 '.'
+#35 ERROR "*"
+#36 ERROR "*"
+#36 CLASS
+#36 TYPEID C
+#36 INHERITS
+#36 TYPEID Foo
+#36 OBJECTID is
+#37 ERROR "*"
+#37 OBJECTID io
+#37 ':'
+#37 TYPEID IO
+#37 ASSIGN
+#37 NEW
+#37 TYPEID IO
+#37 ';'
+#38 ERROR "*"
+#38 '.'
+#38 '.'
+#38 '.'
+#39 ERROR "*"
+#39 OBJECTID io
+#39 '.'
+#39 OBJECTID out_string
+#39 '('
+#39 STR_CONST "Hello world\\n"
+#39 ')'
+#39 ';'
+#40 ERROR "*"
+#40 '.'
+#40 '.'
+#40 '.'
+#41 ERROR "*"
+#41 OBJECTID end
+#41 ';'
+#42 ERROR "*"
+#43 ERROR "*"
+#43 TYPEID Approach
+#43 INT_CONST 1
+#43 ')'
+#43 OBJECTID is
+#43 OBJECTID most
+#43 OBJECTID often
+#43 OBJECTID used
+#43 ERROR ","
+#43 IN
+#43 OBJECTID particular
+#43 OBJECTID when
+#43 OBJECTID you
+#43 OBJECTID need
+#43 TYPEID IO
+#44 ERROR "*"
+#44 OBJECTID functions
+#44 IN
+#44 OBJECTID the
+#44 TYPEID Main
+#44 CLASS
+#44 '.'
+#45 ERROR "*"
+#46 ERROR "*"
+#46 ')'
+#49 CLASS
+#49 TYPEID A
+#49 '{'
+matching comment -- Let's assume that we don't want A to not inherit from IO.
+#53 OBJECTID io
+#53 ':'
+#53 TYPEID IO
+#53 ASSIGN
+#53 NEW
+#53 TYPEID IO
+#53 ';'
+#55 OBJECTID out_a
+#55 '('
+#55 ')'
+#55 ':'
+#55 TYPEID Object
+#55 '{'
+#55 OBJECTID io
+#55 '.'
+#55 OBJECTID out_string
+#55 '('
+#55 STR_CONST "A: Hello world\\n"
+#55 ')'
+#55 '}'
+#55 ';'
+#57 '}'
+#57 ';'
+#60 CLASS
+#60 TYPEID B
+#60 INHERITS
+#60 TYPEID A
+#60 '{'
+matching comment -- B does not have to an extra attribute, since it inherits io from A.
+#64 OBJECTID out_b
+#64 '('
+#64 ')'
+#64 ':'
+#64 TYPEID Object
+#64 '{'
+#64 OBJECTID io
+#64 '.'
+#64 OBJECTID out_string
+#64 '('
+#64 STR_CONST "B: Hello world\\n"
+#64 ')'
+#64 '}'
+#64 ';'
+#66 '}'
+#66 ';'
+#69 CLASS
+#69 TYPEID C
+#69 INHERITS
+#69 TYPEID IO
+#69 '{'
+matching comment -- Now the IO methods are part of C.
+#73 OBJECTID out_c
+#73 '('
+#73 ')'
+#73 ':'
+#73 TYPEID Object
+#73 '{'
+#73 OBJECTID out_string
+#73 '('
+#73 STR_CONST "C: Hello world\\n"
+#73 ')'
+#73 '}'
+#73 ';'
+matching comment -- Note that out_string(...) is just a shorthand for self.out_string(...)
+#77 '}'
+#77 ';'
+#80 CLASS
+#80 TYPEID D
+#80 INHERITS
+#80 TYPEID C
+#80 '{'
+matching comment -- Inherits IO methods from C.
+#84 OBJECTID out_d
+#84 '('
+#84 ')'
+#84 ':'
+#84 TYPEID Object
+#84 '{'
+#84 OBJECTID out_string
+#84 '('
+#84 STR_CONST "D: Hello world\\n"
+#84 ')'
+#84 '}'
+#84 ';'
+#86 '}'
+#86 ';'
+#89 CLASS
+#89 TYPEID Main
+#89 INHERITS
+#89 TYPEID IO
+#89 '{'
+matching comment -- Same case as class C.
+#93 OBJECTID main
+#93 '('
+#93 ')'
+#93 ':'
+#93 TYPEID Object
+#93 '{'
+#94 '{'
+#95 '('
+#95 NEW
+#95 TYPEID A
+#95 ')'
+#95 '.'
+#95 OBJECTID out_a
+#95 '('
+#95 ')'
+#95 ';'
+#96 '('
+#96 NEW
+#96 TYPEID B
+#96 ')'
+#96 '.'
+#96 OBJECTID out_b
+#96 '('
+#96 ')'
+#96 ';'
+#97 '('
+#97 NEW
+#97 TYPEID C
+#97 ')'
+#97 '.'
+#97 OBJECTID out_c
+#97 '('
+#97 ')'
+#97 ';'
+#98 '('
+#98 NEW
+#98 TYPEID D
+#98 ')'
+#98 '.'
+#98 OBJECTID out_d
+#98 '('
+#98 ')'
+#98 ';'
+#99 OBJECTID out_string
+#99 '('
+#99 STR_CONST "Done.\\n"
+#99 ')'
+#99 ';'
+#100 '}'
+#101 '}'
+#101 ';'
+#103 '}'
+#103 ';'

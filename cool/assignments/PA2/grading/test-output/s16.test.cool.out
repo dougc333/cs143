@@ -1,0 +1,60 @@
+#name "./s16.test.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID some
+#1 OBJECTID integer
+#1 OBJECTID literals
+#1 ERROR "*"
+#1 ')'
+#2 INT_CONST 0
+#3 INT_CONST 99
+#4 INT_CONST 0777
+#4 '('
+#4 ERROR "*"
+#4 OBJECTID this
+#4 OBJECTID is
+#4 ERROR "*"
+#4 OBJECTID decimal
+#4 ERROR "*"
+#4 INT_CONST 777
+#4 ERROR "*"
+#4 ')'
+#5 INT_CONST 2147483647
+#5 '('
+#5 ERROR "*"
+#5 OBJECTID largest
+#5 OBJECTID representable
+#5 ERROR "*"
+#5 ')'
+#6 INT_CONST 2147483648
+#6 '('
+#6 ERROR "*"
+#6 OBJECTID one
+#6 OBJECTID too
+#6 OBJECTID big
+#6 ERROR "*"
+#6 ')'
+#7 INT_CONST 012345678901234567890123456789
+#7 '('
+#7 ERROR "*"
+#7 OBJECTID long
+#7 '.'
+#7 '.'
+#7 '.'
+#7 ERROR "*"
+#7 ')'
+#8 INT_CONST 2147483647
+#8 '('
+#8 ERROR "*"
+#8 OBJECTID largest
+#8 OBJECTID representable
+#8 '('
+#8 OBJECTID again
+#8 OBJECTID to
+#8 OBJECTID ensure
+#8 OBJECTID errno
+#8 OBJECTID resetting
+#8 OBJECTID works
+#8 ')'
+#8 ERROR "*"
+#8 ')'

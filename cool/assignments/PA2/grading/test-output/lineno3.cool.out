@@ -1,0 +1,28 @@
+#name "./lineno3.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID first
+#1 OBJECTID line
+#2 '('
+#2 ERROR "*"
+#2 OBJECTID second
+#2 OBJECTID line
+matching comment -- third line
+#4 ERROR "*"
+#4 ')'
+#4 OBJECTID fourth
+#4 OBJECTID line
+#5 ERROR "*"
+#5 ')'
+matching comment -- sixth line
+#7 '+'
+#8 OBJECTID abc
+matching comment -- ninth line
+#10 '('
+#10 ERROR "*"
+#10 OBJECTID tenth
+#10 OBJECTID line
+#11 ERROR "*"
+#11 ')'
+#12 TYPEID DEF
+#13 STR_CONST "string"

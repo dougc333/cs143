@@ -1,0 +1,26 @@
+#name "./escaped_chars_in_comment.cl.cool"
+#1 '('
+#1 ERROR "*"
+#2 '('
+#2 ERROR "*"
+#2 ERROR "\\"
+#2 ERROR "*"
+#2 ')'
+#2 ERROR "*"
+#2 ERROR "\\"
+#2 ')'
+#3 OBJECTID abc
+#4 ERROR "\\"
+#4 '('
+#4 ERROR "*"
+#4 OBJECTID def
+#4 '('
+#4 ERROR "\\"
+#4 ERROR "*"
+#4 OBJECTID ghi
+#4 ERROR "*"
+#4 ')'
+#5 OBJECTID jkl
+#6 ERROR "*"
+#6 ')'
+#7 OBJECTID mno

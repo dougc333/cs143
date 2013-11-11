@@ -1,0 +1,9 @@
+#name "./s19.test.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID illegal:
+#1 OBJECTID unescaped
+#1 OBJECTID newline
+#1 ERROR "*"
+#1 ')'
+#2 STR_CONST "c\nd"

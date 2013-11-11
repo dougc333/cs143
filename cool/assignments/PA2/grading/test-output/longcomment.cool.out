@@ -1,0 +1,290 @@
+#name "./longcomment.cool"
+#1 TYPEID Comment
+#1 OBJECTID test
+#2 '('
+#2 ERROR "*"
+#2 TYPEID Comment
+#2 OBJECTID test
+#2 ERROR "*"
+#2 ')'
+#3 '('
+#3 ERROR "*"
+#3 '('
+#3 ERROR "*"
+#3 TYPEID Comment
+#3 OBJECTID test
+#3 ERROR "*"
+#3 ')'
+#3 ERROR "*"
+#3 ')'
+#4 '('
+#4 ERROR "*"
+#4 TYPEID Comment
+#4 '('
+#4 ERROR "*"
+#4 OBJECTID test
+#4 ERROR "*"
+#4 ')'
+#4 TYPEID Comment
+#4 ERROR "*"
+#4 ')'
+#5 '('
+#5 ERROR "*"
+#5 TYPEID Comment
+#5 OBJECTID test
+#5 '('
+#5 ERROR "*"
+#5 OBJECTID comment
+#5 OBJECTID test
+#5 ERROR "*"
+#5 ')'
+#5 ERROR "*"
+#5 ')'
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 '('
+#6 ERROR "*"
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 '('
+#6 ERROR "*"
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#6 ERROR "*"
+#6 ')'
+#7 '('
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ERROR "*"
+#7 ')'
+#8 '('
+#8 ERROR "*"
+#8 ERROR "*"
+#8 ')'
+#9 '('
+#9 ERROR "*"
+#9 ERROR "*"
+#9 ERROR "*"
+#9 ')'
+#10 '('
+#10 ERROR "*"
+#10 ERROR "*"
+#10 ERROR "*"
+#10 ERROR "*"
+#10 ')'
+#11 '('
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ERROR "*"
+#11 ')'
+#12 '('
+#12 ERROR "*"
+#12 ERROR "*"
+#12 ERROR "*"
+#12 ')'
+#13 '('
+#13 ERROR "*"
+#13 ERROR "\\"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ERROR "*"
+#13 ')'
+matching comment -- single line comments
+matching comment -- $#%^^$%&%^&%&%#*&*$^*%>G%>GH>%TH%>^*^$$*&^$
+#16 TYPEID Comment
+#17 OBJECTID test
+#18 '('
+#18 ERROR "*"
+#18 TYPEID Comment
+#19 OBJECTID test
+#19 ERROR "*"
+#19 ')'
+#20 '('
+#20 ERROR "*"
+#21 '('
+#21 ERROR "*"
+#22 TYPEID Comment
+#22 OBJECTID test
+#23 ERROR "*"
+#23 ')'
+#24 ERROR "*"
+#24 ')'
+#25 '('
+#25 ERROR "*"
+#25 TYPEID Comment
+#26 '('
+#26 ERROR "*"
+#26 OBJECTID test
+#27 ERROR "*"
+#27 ')'
+#27 TYPEID Comment
+#28 ERROR "*"
+#28 ')'
+#29 '('
+#29 ERROR "*"
+#29 TYPEID Comment
+#29 OBJECTID test
+#30 '('
+#30 ERROR "*"
+#30 OBJECTID comment
+#30 OBJECTID test
+#30 ERROR "*"
+#30 ')'
+#30 ERROR "*"
+#30 ')'
+#31 '('
+#31 ERROR "*"
+#31 '('
+#31 ERROR "*"
+#31 '('
+#31 ERROR "*"
+#31 '('
+#31 ERROR "*"
+#32 '('
+#32 ERROR "*"
+#32 '('
+#32 ERROR "*"
+#32 '('
+#32 ERROR "*"
+#32 '('
+#32 ERROR "*"
+#32 '('
+#32 ERROR "*"
+#33 ERROR "*"
+#33 ')'
+#33 ERROR "*"
+#33 ')'
+#33 ERROR "*"
+#33 ')'
+#33 '('
+#33 ERROR "*"
+#34 ERROR "*"
+#34 ')'
+#34 ERROR "*"
+#34 ')'
+#34 ERROR "*"
+#34 ')'
+#34 ERROR "*"
+#34 ')'
+#34 ERROR "*"
+#34 ')'
+#34 ERROR "*"
+#34 ')'
+#35 ERROR "*"
+#35 ')'
+#36 '('
+#36 ERROR "*"
+#36 ERROR "*"
+#36 ERROR "*"
+#36 ERROR "*"
+#37 ERROR "*"
+#37 ERROR "*"
+#37 ERROR "*"
+#37 ')'
+#38 '('
+#38 ERROR "*"
+#38 ERROR "*"
+#39 ERROR "*"
+#39 ')'
+#40 '('
+#40 ERROR "*"
+#40 ERROR "\\"
+#40 ERROR "*"
+#41 '('
+#41 ERROR "*"
+#41 ERROR "*"
+#41 ')'
+#43 '('
+#43 ERROR "*"
+#43 '('
+#43 ERROR "*"
+#43 TYPEID Comment
+#43 ERROR "*"
+#43 ERROR "*"
+#43 ')'
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ERROR "*"
+#46 ')'
+#48 TYPEID Foo
+#48 OBJECTID bar
+matching comment -- hello my name is george;@#$#@!^%&$&@$#$ESFsej ok34;u90
+#49 TYPEID Moo
+#49 OBJECTID bow
+matching comment --- heelo my nma ei sgeoegre ; 234 2#$@#$ f
+#50 TYPEID JoJo
+#50 TYPEID JojOj
+#50 OBJECTID joJoj
+#50 INT_CONST 323
+matching comment --------------------------
+#51 OBJECTID dfdj
+matching comment --
+#52 OBJECTID fadsjfkldsafjklsd
+#52 ';'
+matching comment -- \n
+#53 OBJECTID dfdsajfk
+#53 INT_CONST 312

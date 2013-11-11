@@ -1,0 +1,14 @@
+#name "./null_in_string_unescaped_newline.cl.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID null
+#1 OBJECTID character
+#1 IN
+#1 OBJECTID string
+#1 ERROR "*"
+#1 ')'
+#2 STR_CONST "null character is here -"
+#2 ERROR "\000"
+#2 ASSIGN
+#3 OBJECTID a
+#3 '+'

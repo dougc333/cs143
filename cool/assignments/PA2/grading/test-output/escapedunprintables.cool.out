@@ -1,0 +1,28 @@
+#name "./escapedunprintables.cool"
+#1 STR_CONST "This is a tab:"
+#1 STR_CONST "\n"
+#1 TYPEID This
+#1 OBJECTID is
+#1 OBJECTID a
+#1 OBJECTID backspace:
+#1 ERROR "\\"
+#1 ERROR "\b"
+#1 STR_CONST "\n"
+#1 TYPEID This
+#1 OBJECTID is
+#1 OBJECTID a
+#1 OBJECTID formfeed:
+#1 ERROR "\\"
+#1 STR_CONST "\n"
+#1 TYPEID This
+#1 OBJECTID is
+#1 OBJECTID a
+#1 OBJECTID carriage
+#1 OBJECTID return:
+#1 STR_CONST "\n"
+#1 TYPEID This
+#1 OBJECTID is
+#1 OBJECTID an
+#1 OBJECTID escape:
+#1 ERROR "\033"
+#1 STR_CONST ""

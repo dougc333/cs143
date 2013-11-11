@@ -1,0 +1,4 @@
+#name "./s32.test.cool"
+matching comment -- tricky: this should be seen as an error, not two tokens
+#2 ERROR "*"
+#2 ')'

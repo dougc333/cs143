@@ -1,0 +1,21 @@
+#name "./lineno2.cool"
+#1 '('
+#1 ERROR "*"
+#1 OBJECTID jfkds
+#1 ';'
+#1 OBJECTID ajfkdl
+#1 ';'
+#1 OBJECTID a
+#1 '('
+#1 ERROR "*"
+#1 STR_CONST "\n\n"
+#1 ERROR "*"
+#1 ')'
+#1 OBJECTID fdjsk
+#1 ';'
+#1 OBJECTID ajs
+#2 ERROR "*"
+#2 ')'
+#3 ERROR "!"
+#4 OBJECTID fjdk
+#5 STR_CONST ""

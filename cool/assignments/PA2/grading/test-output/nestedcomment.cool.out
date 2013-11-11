@@ -1,0 +1,28 @@
+#name "./nestedcomment.cool"
+#1 '('
+#1 ERROR "*"
+#1 TYPEID XXX
+#1 '('
+#1 ERROR "*"
+#1 TYPEID XXX
+#1 ERROR "*"
+#1 ')'
+#1 TYPEID XXX
+#1 ERROR "*"
+#1 ')'
+#2 '('
+#2 ERROR "*"
+#2 TYPEID XXX
+#2 '('
+#2 ERROR "*"
+#2 TYPEID YYY
+#2 ERROR "*"
+#2 ')'
+#3 '('
+#3 ERROR "*"
+#3 TYPEID ZZZ
+#3 ERROR "*"
+#3 ')'
+#3 TYPEID XXX
+#3 ERROR "*"
+#3 ')'

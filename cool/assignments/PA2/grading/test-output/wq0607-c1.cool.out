@@ -1,0 +1,14 @@
+#name "./wq0607-c1.cool"
+#1 '('
+#1 ERROR "*"
+#1 TYPEID COMMENT
+#1 ERROR ","
+#1 TYPEID STRING
+#1 ERROR ","
+#1 TYPEID COMMENT
+#1 ERROR ","
+#1 TYPEID COMMENT
+#1 ERROR "*"
+#1 ')'
+matching comment --"--"--"
+#4 STR_CONST "--"

@@ -1,0 +1,9 @@
+#name "./stringcomment.cool"
+#1 STR_CONST "This is a string--and it's still a string"
+matching comment --This is a comment, "not a string"
+#3 '('
+#3 ERROR "*"
+#3 STR_CONST "not a string"
+#3 ERROR "*"
+#3 ')'
+#4 STR_CONST "(* not a comment *)"

@@ -1,0 +1,5 @@
+#name "./s05.test.cool"
+#1 STR_CONST "other unescaped whitespace:"
+#1 ERROR "\022"
+#1 ERROR "\013"
+#1 STR_CONST ""

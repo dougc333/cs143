@@ -1,0 +1,13 @@
+#name "./bothcomments.cool"
+matching comment -- (* This isn't
+#2 OBJECTID what
+#2 OBJECTID the
+#2 OBJECTID programmer
+#2 OBJECTID thought
+#2 OBJECTID it
+#2 OBJECTID was
+#2 ERROR "*"
+#2 ')'
+#3 '.'
+#4 '('
+#4 ERROR "*"
