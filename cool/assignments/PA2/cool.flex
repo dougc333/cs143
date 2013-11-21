@@ -48,6 +48,9 @@ extern YYSTYPE cool_yylval;
 
 %}
 
+%x MULTILINECOMMENT
+
+
 /*
  * Define names for regular expressions here.
  */
@@ -61,6 +64,20 @@ SPACE	[ \t\f\r]
 NEWLINE [\n]
 %%
 
+
+"*"     {
+         BEGIN(MULTILINECOMMENT);
+        }
+
+
+<MULTILINECOMMENT>\n    {curr_lineno++;}
+
+<MULTILINECOMMENT>[^*]* {
+			 /*printf("multilinecomment not end match %s \n",yytext);*/
+                         BEGIN(INITIAL);
+                        }
+
+
  /* 
   * single line comments
   */
@@ -69,13 +86,11 @@ NEWLINE [\n]
 		/*do nothing, consume the comments */
 		}
 
-
-
-
  /*
   *  Nested comments
-  *  
+  *  what is a nc? 
   */
+
 
 
  /*
@@ -118,11 +133,11 @@ f[aA][lL][sS][eE]	{
 			return BOOL_CONST;
 			}
 
-"+"	{return '+';} /* for expressions, not implemented yet do nothing for now */
-"-"	{return '-';} /* for expressions, not implemented yet do nothing for now*/
+"+"	{return '+';}
+"-"	{return '-';}
 ";"	{return ';';}
-"{"	{return '{';} /* begin scope do nothing for now*/
-"}"	{return '}';} /* end scope do nothing for now*/
+"{"	{return '{';}
+"}"	{return '}';}
 "."	{return '.';}
 "("	{return '(';}
 ")"	{return ')';}
@@ -169,8 +184,7 @@ f[aA][lL][sS][eE]	{
 
 
 
- /*  TYPEID starts with upper case?
-  *  a class starts with upper case like type 
+ /*  TYPEID and class starts with upper case 
   *  OBJECTID starts with lower case? 
   *
   */
@@ -193,7 +207,7 @@ f[aA][lL][sS][eE]	{
  .	{ //this is 2 chars, one for end of string char and one for the char being tokenized which has no match
 	  
 	   char *tp = new char[2];
-	    strcpy(tp,yytext);
+	   strcpy(tp,yytext);
 	   cool_yylval.error_msg=tp;
 	   return ERROR;
 	}
